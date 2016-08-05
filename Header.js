@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-const header = React.createClass({
-  render: function() {
+class Header extends React.Component {
+  render() {
     return (
       <h1 className="header">Header</h1>
     );
   }
-});
+}
 
-export default header;
+export default Header;

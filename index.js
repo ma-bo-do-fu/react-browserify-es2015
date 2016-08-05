@@ -2,12 +2,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header';
-import Contents from './contents';
-import Info from './info';
+import Header from './Header';
+import Contents from './Contents';
+import Info from './Info';
 
-const Application = React.createClass({
-  render: function() {
+class Application extends React.Component {
+  render() {
     return (
       <div className="app">
         <Header className="header"/>
@@ -16,7 +16,7 @@ const Application = React.createClass({
       </div>
     );
   }
-});
+}
 
 ReactDOM.render(
   <Application />,

@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-const contents = React.createClass({
-  render: function() {
+class Contents extends React.Component {
+  render() {
     return (
       <div className="contents">contents</div>
     );
   }
-});
+}
 
-export default contents;
+export default Contents;

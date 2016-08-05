@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-const info = React.createClass({
-  render: function() {
+class Info extends React.Component {
+  render() {
     return (
       <div className="info">infomation</div>
     );
   }
-});
+}
 
-export default info;
+export default Info;
