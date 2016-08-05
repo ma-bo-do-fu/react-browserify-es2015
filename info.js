@@ -5,7 +5,7 @@ import React from 'react';
 const info = React.createClass({
   render: function() {
     return (
-      <div>infomation</div>
+      <div className="info">infomation</div>
     );
   }
 });
